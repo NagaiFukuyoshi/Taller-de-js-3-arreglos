@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Arreglos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>TALLER DE ARREGLOS JS</h1>
+    <nav>
+        <span onclick="mostrar(1)">ejercicio 1 |</span>
+        <span onclick="mostrar(2)">ejercicio 2 |</span>
+        <span onclick="mostrar(3)">ejercicio 3 |</span>
+        <span onclick="mostrar(4)">ejercicio 4 |</span>
+        <span onclick="mostrar(5)">ejercicio 5 |</span>
+        <span onclick="mostrar(6)">ejercicio 6 |</span>
+        <span onclick="mostrar(7)">ejercicio 7 |</span>
+    </nav>
+
+    <table align="center" width="80%">
+        <tr>
+            <td id="enunciados">
+                <div id="ejercicio1">
+                    <p>Crea un array o arreglo unidimensional con un tamaño de 5, asignale los valores numéricos
+                        manualmente (los que tu quieras) y muestralos por pantalla.</p>
+                        <input type="button" value="Enviar" onclick="ejer1()">
+                </div>
+                <div id="ejercicio2">
+                    <p>Crea un array o arreglo unidimensional con un tamaño de 10, inserta los valores numéricos que
+                        desees de la manera que quieras y muestra por pantalla la media de valores del array.</p>
+                        <input type="button" value="Enviar" onclick="ejer2()">
+                </div>
+                <div id="ejercicio3">
+                    <p>Crea un array o arreglo unidimensional donde tu le indiques el tamaño por teclado y crear una
+                        función que rellene el array o arreglo con los múltiplos de un numero pedido por teclado. Por
+                        ejemplo, si defino un array de tamaño 5 y eligo un 3 en la función, el array contendrá 3, 6, 9,
+                        12, 15. Muestralos por pantalla usando otra función distinta.</p>
+                        <input type="button" value="Enviar" onclick="ejer3()">
+                </div>
+                <div id="ejercicio4">
+                    <p>Buscar un elemento dentro de un arreglo que nosotros le pedimos por teclado. Indicar las
+                        posición donde se encuentra. Si hay más de uno, indicar igualmente la posición.</p>
+                        <input type="button" value="Enviar" onclick="ejer4()">
+                </div>
+                <div id="ejercicio5">
+                    <p>Suponga un array con N números enteros generados aleatoriamente y mostrados en pantalla, N
+                        debe ser un número impar, mostrar en pantalla el valor que ocupa el centro del array.</p>
+                        <input type="button" value="Enviar" onclick="ejer5()">
+                </div>
+                <div id="ejercicio6">
+                    <p>Crea un arreglo o array multidimensional que contenga 3 columnas y las filas que tu quieras,
+                        las dos primeras columnas tendrán números y en la 3 columna sera el resultado de sumar el
+                        número de la primera y segunda columna. Muestra el array o arreglo de la siguiente forma:
+                        <br>◦ 3 + 5 = 8
+                        <br>◦ 4 + 4 = 7</p>
+                        <input type="button" value="Enviar" onclick="ejer6()">
+                </div>
+                <div id="ejercicio7">
+                    <p>Crear una matriz para las tablas de multiplicar</p>
+                    <input type="button" value="Enviar" onclick="ejer7()">
+                </div>
+            </td>
+            <td id="resultado">Resultados</td>
+        </tr>
+    </table>
+
+</body>
+
+<script src="js/arreglos.js"></script>
+</html>

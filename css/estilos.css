@@ -1,0 +1,42 @@
+body{
+    font-family: Arial;
+    font-size: 12px;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(195, 191, 191);
+    padding: 10px;
+}
+
+nav > span{
+    cursor: pointer;
+    color:black;
+    font-weight: bold;
+}
+
+nav > span:hover{
+    color: brown;
+}
+
+#ejercicio1, #ejercicio2, #ejercicio3, #ejercicio4, #ejercicio5, #ejercicio6, #ejercicio7{
+    display: none;
+}
+
+#enunciados, #resultado{
+    width: 50%;
+    padding: 5px;
+}
+
+#resultado{
+    background-color: darkcyan;
+    color: white;
+}
+
+#enunciados{
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
